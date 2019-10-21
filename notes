@@ -1,1 +1,3 @@
-data(Auto)
+Auto=read_csv("https://github.com/maziarizadi/Rnotes/blob/master/Auto.csv", na="?")
+Auto %>%
+slice(1:10)
